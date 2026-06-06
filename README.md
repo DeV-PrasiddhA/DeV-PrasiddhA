@@ -10,6 +10,30 @@ Building intelligent systems, exploring machine learning, and turning ideas into
 
 ---
 
+<div align="center">
+
+## Tech Stack & Focus Areas
+
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-green?style=for-the-badge)
+![Deep Learning](https://img.shields.io/badge/Deep%20Learning-PyTorch-red?style=for-the-badge)
+![Data Science](https://img.shields.io/badge/Data%20Science-Pandas%20%7C%20NumPy-purple?style=for-the-badge)
+
+![Finance ML](https://img.shields.io/badge/Finance%20AI-Stock%20%26%20Crypto%20Prediction-black?style=for-the-badge)
+![Fraud Detection](https://img.shields.io/badge/Fraud%20Detection-Classification-orange?style=for-the-badge)
+![Time Series](https://img.shields.io/badge/Time%20Series-Forecasting-blueviolet?style=for-the-badge)
+![Neural Networks](https://img.shields.io/badge/Neural%20Networks-Regression%20Models-critical?style=for-the-badge)
+
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-F37626?style=for-the-badge)
+![Google Colab](https://img.shields.io/badge/Google%20Colab-Used%20for%20Training-F9AB00?style=for-the-badge)
+
+![Status](https://img.shields.io/badge/Status-Portfolio%20Projects-success?style=for-the-badge)
+![Level](https://img.shields.io/badge/Level-Intermediate%20ML%20Builder-important?style=for-the-badge)
+
+</div>
+
+---
+
 ## About
 
 I am a student passionate about understanding how intelligent systems learn, reason, and create impact.
