@@ -24,9 +24,6 @@ Building intelligent systems, exploring machine learning, and turning ideas into
 ![Time Series](https://img.shields.io/badge/Time%20Series-Forecasting-blueviolet?style=for-the-badge)
 ![Neural Networks](https://img.shields.io/badge/Neural%20Networks-Regression%20Models-critical?style=for-the-badge)
 
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-F37626?style=for-the-badge)
-![Google Colab](https://img.shields.io/badge/Google%20Colab-Used%20for%20Training-F9AB00?style=for-the-badge)
-
 ![Status](https://img.shields.io/badge/Status-Portfolio%20Projects-success?style=for-the-badge)
 ![Level](https://img.shields.io/badge/Level-Intermediate%20ML%20Builder-important?style=for-the-badge)
 
