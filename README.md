@@ -74,7 +74,7 @@ I'm a Computer Science student in Kathmandu, Nepal, self-taught in AI/ML and obs
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/LiboniX-2/LiboniX-2/output/github-contribution-grid-snake.svg" alt="Contribution Snake animation" />
+<img src="https://github.com/LiboniX-2/LiboniX-2/blob/main/snake.yml" alt="Contribution Snake animation" />
 
 </div>
 
