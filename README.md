@@ -2,6 +2,8 @@
 
 # Prasiddha
 
+![Total Commits](https://img.shields.io/github/commit-activity/total/LiboniX-2/LiboniX-2?style=for-the-badge)
+
 ### Artificial Intelligence • Machine Learning • Research
 
 Building intelligent systems, exploring machine learning, and turning ideas into practical applications.
@@ -35,9 +37,9 @@ Building intelligent systems, exploring machine learning, and turning ideas into
 
 I am a student passionate about understanding how intelligent systems learn, reason, and create impact.
 
-My primary interests lie in machine learning, deep learning, computer vision, and applied AI research. I enjoy building projects that transform theoretical concepts into working systems, whether through predictive models, educational technology, or experimental research.
+My primary interests lie in machine learning, deep learning, computer vision, and applied AI research. I enjoy building projects that transform theoretical concepts into working systems, whether t[...]
 
-Most of my work revolves around learning by building—implementing algorithms from scratch, studying modern AI architectures, experimenting with real-world datasets, and exploring how AI can be used to solve meaningful problems.
+Most of my work revolves around learning by building—implementing algorithms from scratch, studying modern AI architectures, experimenting with real-world datasets, and exploring how AI can be u[...]
 
 ---
 
