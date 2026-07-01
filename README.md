@@ -1,134 +1,156 @@
 <div align="center">
 
-# Prasiddha
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Prasiddha+%F0%9F%91%8B;AI%2FML+Researcher+%26+Builder;Representing+Nepal+at+IOAI+2026;NOAI+2026+%E2%80%94+Rank+2+Nationally" alt="Typing SVG" />
 
-![Total Commits](https://img.shields.io/github/commit-activity/total/LiboniX-2/LiboniX-2?style=for-the-badge)
+<br/>
 
-### Artificial Intelligence • Machine Learning • Research
+**Building intelligent systems from first principles — no bootcamps, no mentors, just relentless building.**
 
-Building intelligent systems, exploring machine learning, and turning ideas into practical applications.
+[![Portfolio](https://img.shields.io/badge/Portfolio-6C63FF?style=for-the-badge&logo=vercel&logoColor=white)](#)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](#)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](#)
+
+<img src="https://komarev.com/ghpvc/?username=LiboniX-2&style=for-the-badge&color=6C63FF&label=PROFILE+VIEWS" alt="Profile views"/>
+<img src="https://img.shields.io/github/followers/LiboniX-2?style=for-the-badge&color=6C63FF&labelColor=black" alt="Followers"/>
+
+</div>
+
+<br/>
+
+## 🏆 Highlights
+
+<div align="center">
+
+| 🥈 NOAI 2026 | 🌍 IOAI 2026 | 🏥 Nidaan | 🌾 NATERIDA |
+|:---:|:---:|:---:|:---:|
+| Rank 2, National Olympiad in AI | Selected to represent Nepal | AI medical diagnostics platform | Agricultural exploration rover |
+
+</div>
+
+> **Note:** replace the LinkedIn/Email/Portfolio links above with your real URLs — swap the `#` in the badge markdown.
+
+---
+
+## 👨‍💻 About Me
+
+I'm a Computer Science student in Kathmandu, Nepal, self-taught in AI/ML and obsessed with understanding systems deeply enough to rebuild them from scratch. I run my college's Data Science & AI club, and most of what I know came from breaking things, debugging for weeks, and shipping anyway.
+
+- 🔭 Currently building **Nidaan**, an AI-powered medical diagnostics platform (EfficientNetB0, quantized BioMistral-7B, Whisper multilingual voice input)
+- 🌱 Exploring causal machine learning via my **EconML** research repo (forecasting, fraud detection, valuation)
+- 🚀 Represented Nepal at the **International Olympiad in Artificial Intelligence (IOAI)**
+- 💬 Ask me about computer vision, time-series forecasting, or reinforcement learning for robotics
+- ⚡ Fun fact: NATERIDA's navigation stack survived a real battery failure mid-field-test — and so did the debugging story
+
+---
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+![Python](https://skillicons.dev/icons?i=py) ![PyTorch](https://img.shields.io/badge/-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![TensorFlow](https://skillicons.dev/icons?i=tensorflow) ![Scikit-learn](https://img.shields.io/badge/-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) ![OpenCV](https://skillicons.dev/icons?i=opencv)
+<br/>
+![React](https://skillicons.dev/icons?i=react) ![Next.js](https://skillicons.dev/icons?i=nextjs) ![TypeScript](https://skillicons.dev/icons?i=ts) ![Flask](https://skillicons.dev/icons?i=flask) ![MySQL](https://skillicons.dev/icons?i=mysql)
+<br/>
+![Git](https://skillicons.dev/icons?i=git) ![GitHub](https://skillicons.dev/icons?i=github) ![Colab](https://img.shields.io/badge/-Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white) ![VSCode](https://skillicons.dev/icons?i=vscode)
 
 </div>
 
 ---
 
+## 📊 GitHub Stats
+
 <div align="center">
 
-## Tech Stack & Focus Areas
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=LiboniX-2&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&title_color=6C63FF&icon_color=6C63FF&text_color=c9d1d9&bg_color=0d1117" />
+<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=LiboniX-2&theme=tokyonight&hide_border=true&background=0d1117&ring=6C63FF&fire=6C63FF&currStreakLabel=6C63FF" />
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge)
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-green?style=for-the-badge)
-![Deep Learning](https://img.shields.io/badge/Deep%20Learning-PyTorch-red?style=for-the-badge)
-![Data Science](https://img.shields.io/badge/Data%20Science-Pandas%20%7C%20NumPy-purple?style=for-the-badge)
-
-![Finance ML](https://img.shields.io/badge/Finance%20AI-Stock%20%26%20Crypto%20Prediction-black?style=for-the-badge)
-![Fraud Detection](https://img.shields.io/badge/Fraud%20Detection-Classification-orange?style=for-the-badge)
-![Time Series](https://img.shields.io/badge/Time%20Series-Forecasting-blueviolet?style=for-the-badge)
-![Neural Networks](https://img.shields.io/badge/Neural%20Networks-Regression%20Models-critical?style=for-the-badge)
-
-![Status](https://img.shields.io/badge/Status-Portfolio%20Projects-success?style=for-the-badge)
-![Level](https://img.shields.io/badge/Level-Intermediate%20ML%20Builder-important?style=for-the-badge)
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LiboniX-2&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6C63FF&text_color=c9d1d9&langs_count=8" />
 
 </div>
 
----
-
-## About
-
-I am a student passionate about understanding how intelligent systems learn, reason, and create impact.
-
-My primary interests lie in machine learning, deep learning, computer vision, and applied AI research. I enjoy building projects that transform theoretical concepts into working systems, whether t[...]
-
-Most of my work revolves around learning by building—implementing algorithms from scratch, studying modern AI architectures, experimenting with real-world datasets, and exploring how AI can be u[...]
+> These cards pull live from the GitHub API, so your total commits, streak, and language breakdown **update automatically on every commit** — no manual editing needed.
 
 ---
 
-## Current Focus
+## 🐍 Contribution Snake
 
-* Machine Learning Fundamentals
-* Deep Learning with PyTorch
-* Computer Vision
-* Applied AI Research
-* Educational AI Systems
----
+<div align="center">
 
-## Tech Stack
+<img src="https://raw.githubusercontent.com/LiboniX-2/LiboniX-2/output/github-contribution-grid-snake.svg" alt="Contribution Snake animation" />
 
-### Languages
+</div>
 
-```python
-Python
-SQL
-C
-```
-
-### Machine Learning & AI
-
-```python
-PyTorch
-Scikit-Learn
-NumPy
-Pandas
-OpenCV
-Matplotlib
-```
-
-### Development Tools
-
-```python
-Git
-GitHub
-Jupyter Notebook
-Google Colab
-VS Code
-MySQL
-```
+> This animation is generated by a GitHub Action (`.github/workflows/snake.yml`, included below) that runs daily and after every push, eating through your real contribution graph. See the setup note at the bottom of this message.
 
 ---
 
-## What You'll Find Here
+## 🚀 Featured Projects
 
-### Machine Learning Projects
+<div align="center">
 
-End-to-end machine learning workflows including data preprocessing, feature engineering, model training, evaluation, and deployment.
+### 🏥 [Nidaan — AI Medical Diagnostics Platform](https://github.com/LiboniX-2/Nidaan)
+`EfficientNetB0` `BioMistral-7B (4-bit)` `Whisper (13 languages)` `Next.js 15` `Flask`
+<br/>Multi-disease diagnostic system covering malaria, bone fractures, chest X-rays, COVID-19, and brain tumors, with an AI clinical consultation assistant and blood biomarker analytics dashboard.
+<br/>[![Repo](https://img.shields.io/badge/View%20Repo-6C63FF?style=flat-square&logo=github&logoColor=white)](https://github.com/LiboniX-2/Nidaan)
 
-### Deep Learning Experiments
+### 🌾 [NATERIDA — Agricultural Exploration Rover](https://github.com/LiboniX-2/NATERIDA)
+`XGBoost` `Stacked LSTM` `Double DQN` `Res-UNet`
+<br/>Autonomous rover combining fertilizer recommendation, sensor-based intelligence, reinforcement-learning navigation, and image segmentation — published as a joint IEEE-formatted research paper.
+<br/>[![Repo](https://img.shields.io/badge/View%20Repo-6C63FF?style=flat-square&logo=github&logoColor=white)](https://github.com/LiboniX-2/NATERIDA)
 
-Implementations and explorations of neural network architectures, transfer learning techniques, and computer vision models.
+### 📈 [EconML — Applied ML in Economics & Finance](#)
+`Causal Inference` `Time-Series Forecasting` `Fraud Detection`
+<br/>Research repo applying causal machine learning to financial forecasting, fraud detection, and real estate valuation.
 
-### Research Work
+</div>
 
-Research-driven projects focused on applying AI methods to practical and educational challenges.
-
-### Learning Repositories
-
-Collections of implementations, experiments, notes, and projects created while studying AI and machine learning concepts.
-
----
-
-## Areas I'm Exploring
-
-* Deep Neural Networks
-* Computer Vision
-* Representation Learning
-* Model Optimization
-* AI for Education
-* Explainable AI
-* Causal Machine Learning
-* MLOps
+> Replace the `#` links above with the actual repo URLs once this is live.
 
 ---
 
-## Philosophy
+## 🎯 Currently Exploring
 
-I believe the best way to learn AI is to build continuously, understand fundamentals deeply, and remain curious about how things work beneath the abstraction layers.
+<table align="center">
+<tr>
+<td>
 
-Technology changes quickly. Strong fundamentals endure.
+- Deep Neural Networks & Representation Learning
+- Computer Vision & Transfer Learning
+- Causal Machine Learning
+
+</td>
+<td>
+
+- Model Optimization & Quantization
+- AI for Education
+- Explainable AI & MLOps
+
+</td>
+</tr>
+</table>
+
+---
+
+## 💭 Philosophy
+
+> Technology changes quickly. Strong fundamentals endure.
+
+I believe the fastest way to actually learn AI is to build continuously, understand what's happening beneath the abstraction layers, and stay curious enough to keep breaking things on purpose.
 
 ---
 
 <div align="center">
+
+### 📫 Let's Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](#)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](#)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](#)
+
+<br/>
 
 *"Learning. Building. Researching."*
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=LiboniX-2&theme=react-dark&hide_border=true&bg_color=0d1117&color=6C63FF&line=6C63FF&point=ffffff" width="100%"/>
 
 </div>
