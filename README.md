@@ -6,9 +6,9 @@
 
 **Building intelligent systems from first principles — no bootcamps, no mentors, just relentless building.**
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-6C63FF?style=for-the-badge&logo=vercel&logoColor=white)](#)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](#)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](#)
+[![Portfolio](https://img.shields.io/badge/Portfolio-6C63FF?style=for-the-badge&logo=vercel&logoColor=white)](https://prasiddha-mainali.onrender.com/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/prasiddha-mainali-105bb0352/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](prasiddha.mainali2@gmail.com)
 
 <img src="https://komarev.com/ghpvc/?username=LiboniX-2&style=for-the-badge&color=6C63FF&label=PROFILE+VIEWS" alt="Profile views"/>
 <img src="https://img.shields.io/github/followers/LiboniX-2?style=for-the-badge&color=6C63FF&labelColor=black" alt="Followers"/>
@@ -49,7 +49,7 @@ I'm a Computer Science student in Kathmandu, Nepal, self-taught in AI/ML and obs
 
 ![Python](https://skillicons.dev/icons?i=py) ![PyTorch](https://img.shields.io/badge/-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![TensorFlow](https://skillicons.dev/icons?i=tensorflow) ![Scikit-learn](https://img.shields.io/badge/-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) ![OpenCV](https://skillicons.dev/icons?i=opencv)
 <br/>
-![React](https://skillicons.dev/icons?i=react) ![Next.js](https://skillicons.dev/icons?i=nextjs) ![TypeScript](https://skillicons.dev/icons?i=ts) ![Flask](https://skillicons.dev/icons?i=flask) ![MySQL](https://skillicons.dev/icons?i=mysql)
+ ![MySQL](https://skillicons.dev/icons?i=mysql)
 <br/>
 ![Git](https://skillicons.dev/icons?i=git) ![GitHub](https://skillicons.dev/icons?i=github) ![Colab](https://img.shields.io/badge/-Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white) ![VSCode](https://skillicons.dev/icons?i=vscode)
 
