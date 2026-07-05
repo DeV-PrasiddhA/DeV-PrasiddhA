@@ -10,8 +10,8 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/prasiddha-mainali-105bb0352/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](prasiddha.mainali2@gmail.com)
 
-<img src="https://komarev.com/ghpvc/?username=LiboniX-2&style=for-the-badge&color=6C63FF&label=PROFILE+VIEWS" alt="Profile views"/>
-<img src="https://img.shields.io/github/followers/LiboniX-2?style=for-the-badge&color=6C63FF&labelColor=black" alt="Followers"/>
+<img src="https://komarev.com/ghpvc/?username=DeV-PrasiddhA&style=for-the-badge&color=6C63FF&label=PROFILE+VIEWS" alt="Profile views"/>
+<img src="https://img.shields.io/github/followers/DeV-PrasiddhA?style=for-the-badge&color=6C63FF&labelColor=black" alt="Followers"/>
 
 </div>
 
@@ -61,10 +61,10 @@ I'm a Computer Science student in Kathmandu, Nepal, self-taught in AI/ML and obs
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=LiboniX-2&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&title_color=6C63FF&icon_color=6C63FF&text_color=c9d1d9&bg_color=0d1117" />
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=LiboniX-2&theme=tokyonight&hide_border=true&background=0d1117&ring=6C63FF&fire=6C63FF&currStreakLabel=6C63FF" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=DeV-PrasiddhA&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&title_color=6C63FF&icon_color=6C63FF&text_color=c9d1d9&bg_color=0d1117" />
+<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=DeV-PrasiddhA&theme=tokyonight&hide_border=true&background=0d1117&ring=6C63FF&fire=6C63FF&currStreakLabel=6C63FF" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LiboniX-2&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6C63FF&text_color=c9d1d9&langs_count=8" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DeV-PrasiddhA&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6C63FF&text_color=c9d1d9&langs_count=8" />
 
 </div>
 
@@ -74,7 +74,7 @@ I'm a Computer Science student in Kathmandu, Nepal, self-taught in AI/ML and obs
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/LiboniX-2/LiboniX-2/output/github-contribution-grid-snake.svg" alt="Contribution Snake animation" />
+<img src="https://raw.githubusercontent.com/DeV-PrasiddhA/DeV-PrasiddhA/output/github-contribution-grid-snake.svg" alt="Contribution Snake animation" />
 
 </div>
 
@@ -87,12 +87,12 @@ I'm a Computer Science student in Kathmandu, Nepal, self-taught in AI/ML and obs
 ### 🏥 [Nidaan — AI Medical Diagnostics Platform](https://github.com/LiboniX-2/Nidaan)
 `EfficientNetB0` `BioMistral-7B (4-bit)` `Whisper (13 languages)` `Next.js 15` `Flask`
 <br/>Multi-disease diagnostic system covering malaria, bone fractures, chest X-rays, COVID-19, and brain tumors, with an AI clinical consultation assistant and blood biomarker analytics dashboard.
-<br/>[![Repo](https://img.shields.io/badge/View%20Repo-6C63FF?style=flat-square&logo=github&logoColor=white)](https://github.com/LiboniX-2/Nidaan)
+<br/>[![Repo](https://img.shields.io/badge/View%20Repo-6C63FF?style=flat-square&logo=github&logoColor=white)](https://github.com/DeV-PrasiddhA/Nidaan)
 
 ### 🌾 [NATERIDA — Agricultural Exploration Rover](https://github.com/LiboniX-2/NATERIDA)
 `XGBoost` `Stacked LSTM` `Double DQN` `Res-UNet`
 <br/>Autonomous rover combining fertilizer recommendation, sensor-based intelligence, reinforcement-learning navigation, and image segmentation — published as a joint IEEE-formatted research paper.
-<br/>[![Repo](https://img.shields.io/badge/View%20Repo-6C63FF?style=flat-square&logo=github&logoColor=white)](https://github.com/LiboniX-2/NATERIDA)
+<br/>[![Repo](https://img.shields.io/badge/View%20Repo-6C63FF?style=flat-square&logo=github&logoColor=white)](https://github.com/DeV-PrasiddhA/NATERIDA)
 
 ### 📈 [EconML — Applied ML in Economics & Finance](#)
 `Causal Inference` `Time-Series Forecasting` `Fraud Detection`
@@ -144,6 +144,6 @@ I believe the fastest way to actually learn AI is to build continuously, underst
 
 *"Learning. Building. Researching."*
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=LiboniX-2&theme=react-dark&hide_border=true&bg_color=0d1117&color=6C63FF&line=6C63FF&point=ffffff" width="100%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=DeV-PrasiddhA&theme=react-dark&hide_border=true&bg_color=0d1117&color=6C63FF&line=6C63FF&point=ffffff" width="100%"/>
 
 </div>
