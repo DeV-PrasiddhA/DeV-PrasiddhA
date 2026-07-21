@@ -53,14 +53,14 @@
   <!-- All paths use stroke-dasharray = total length, stroke-dashoffset animates from total to 0 -->
 
   <!-- HEAD SHAPE — outer contour -->
-  <path d="M250,95 C290,95 325,110 340,140 C355,170 358,200 355,230 C352,260 340,285 320,305 C300,325 275,335 250,338 C225,335 200,325 180,305 C160,285 148,260 145,230 C142,200 145,170 160,140 C175,110 210,95 250,95 Z"
+  <path d="M250,95 C290,95 325,110 340,140 C355,170 358,200 355,230 C352,260 340,285 320,305 C300,325 275,335 250,338 C225,335 200,325 180,305 C160,285 148,260 145,230 C142,200 145,170 160,140 C175,110 210,95 250,95"
     fill="none" stroke="url(#lineGrad)" stroke-width="2" stroke-linecap="round"
     stroke-dasharray="620" stroke-dashoffset="620" filter="url(#glow)">
     <animate attributeName="stroke-dashoffset" values="620;0" dur="2.5s" fill="freeze" begin="0.3s"/>
   </path>
 
   <!-- HAIR — main mass -->
-  <path d="M165,155 C162,130 170,108 190,95 C210,82 235,78 255,78 C275,78 300,82 318,95 C336,108 342,130 340,155 C338,140 330,120 315,108 C300,96 280,90 260,88 C240,86 220,90 205,100 C190,110 175,130 168,150 Z"
+  <path d="M165,155 C162,130 170,108 190,95 C210,82 235,78 255,78 C275,78 300,82 318,95 C336,108 342,130 340,155 C338,140 330,120 315,108 C300,96 280,90 260,88 C240,86 220,90 205,100 C190,110 175,130 168,155"
     fill="none" stroke="#4a4a6a" stroke-width="2.5" stroke-linecap="round"
     stroke-dasharray="400" stroke-dashoffset="400">
     <animate attributeName="stroke-dashoffset" values="400;0" dur="2s" fill="freeze" begin="0.5s"/>
