@@ -1,8 +1,7 @@
 <div align="center">
 
-<!-- ==================== HEADER BANNER ==================== -->
-<!-- ==================== PROFILE SKETCH ==================== -->
-<img src="./profile-sketch.svg" width="280" alt="Prasiddha Mainali — AI/ML Researcher" />
+<!-- ==================== PROFILE SKETCH (self-drawing) ==================== -->
+<img src="./profile-sketch.svg" width="320" alt="Prasiddha Mainali — self-drawn portrait" />
 
 <br/>
 
@@ -12,7 +11,6 @@
 
 <br/>
 
-<!-- ==================== BADGES ROW ==================== -->
 <a href="https://prasiddha-mainali.onrender.com/">
   <img src="https://img.shields.io/badge/🌐_Portfolio-6C63FF?style=for-the-badge&logo=vercel&logoColor=white" />
 </a>
@@ -36,7 +34,28 @@
 
 <img src="./divider.svg" width="100%" />
 
-<!-- ==================== TERMINAL ABOUT ME ==================== -->
+<!-- ==================== GIT LOG LIFE STORY ==================== -->
+<div align="center">
+
+### `git log --oneline --life`
+
+</div>
+
+```
+a3f92c1 feat(nidaan):  ship AI medical diagnostics platform — EfficientNetB0 + BioMistral-7B
+b7e41d0 feat(naterida): autonomous agricultural rover — vision, analytics, sensor intelligence
+f10a882 feat(intl):     selected for International Olympiad in AI — representing Nepal
+e88d201 feat(nai):      rank #2 nationally — National Olympiad in AI
+c9d33aa feat(econml):   causal ML research repo — forecasting, fraud detection, valuation
+4a2f7b8 feat(vision):   CNN architectures from scratch in PyTorch — ResNet, EfficientNet
+8f1c9d2 fix(self):      rebuilt NATERIDA after losing year one — came back stronger
+2d5e8a1 feat(club):     founded college Data Science & AI club
+9b0c3f4 feat(first):    wrote first line of Python — Class 11, no mentor, no bootcamp
+```
+
+<img src="./divider.svg" width="100%" />
+
+<!-- ==================== ABOUT ME ==================== -->
 <div align="center">
 
 ```diff
@@ -62,7 +81,7 @@
 │  Location    : Kathmandu, Nepal                 │
 │  Education   : Computer Science Student         │
 │  Focus       : Deep Learning, Computer Vision,  │
-│                Reinforcement Learning, Causal ML│
+│                Data Analytics, Causal ML        │
 │  Currently   : Building Nidaan & research repos │
 │  Philosophy  : Understand it deeply or not at all│
 └─────────────────────────────────────────────────┘
@@ -96,113 +115,79 @@
 
 **🌱 Exploring** Causal ML via `EconML` research repo (forecasting, fraud detection, valuation)
 
-**💬 Ask me about** Computer vision · Time-series forecasting · Reinforcement learning for robotics
-
-**⚡ Fun fact** NATERIDA's navigation stack survived a real battery failure mid-field-test — and so did the debugging story
+**💬 Ask me about** Computer vision · Time-series forecasting · Data analytics · Transfer learning
 
 </div>
 
----
-
-<!-- ==================== ACHIEVEMENTS ==================== -->
-<div align="center">
-
-### 🏆 Featured Builds
-
-<table>
-<tr>
-<td align="center" width="33%">
-<img src="https://img.shields.io/badge/🏥_Nidaan-AI_Diagnostics-6C63FF?style=for-the-badge&labelColor=0d1117" /><br/>
-<sub><b>Multi-disease AI diagnostics<br/>platform with LLM assistant</b></sub>
-</td>
-<td align="center" width="33%">
-<img src="https://img.shields.io/badge/🌾_NATERIDA-Autonomous_Rover-orange?style=for-the-badge&labelColor=0d1117" /><br/>
-<sub><b>Autonomous agricultural<br/>exploration rover</b></sub>
-</td>
-<td align="center" width="33%">
-<img src="https://img.shields.io/badge/📈_EconML-Causal_ML_Research-00b4d8?style=for-the-badge&labelColor=0d1117" /><br/>
-<sub><b>Applied causal ML to<br/>finance & economics</b></sub>
-</td>
-</tr>
-</table>
-
-</div>
-
----
-
-<!-- ==================== TECH STACK ==================== -->
-<div align="center">
-
-### 🛠️ Tech Arsenal
-
-<img src="https://skillicons.dev/icons?i=pytorch&theme=dark" height="50" />
-<img src="https://skillicons.dev/icons?i=python&theme=dark" height="50" />
-<img src="https://skillicons.dev/icons?i=opencv&theme=dark" height="50" />
-<img src="https://skillicons.dev/icons?i=scikitlearn&theme=dark" height="50" />
-<img src="https://skillicons.dev/icons?i=git&theme=dark" height="50" />
-<img src="https://skillicons.dev/icons?i=github&theme=dark" height="50" />
-<img src="https://skillicons.dev/icons?i=vscode&theme=dark" height="50" />
-<img src="https://skillicons.dev/icons?i=html&theme=dark" height="50" />
-<img src="https://skillicons.dev/icons?i=css&theme=dark" height="50" />
-<img src="https://skillicons.dev/icons?i=js&theme=dark" height="50" />
-<img src="https://skillicons.dev/icons?i=c&theme=dark" height="50" />
-<img src="https://skillicons.dev/icons?i=mysql&theme=dark" height="50" />
-
+<!-- ==================== EASTER EGG ==================== -->
+<details align="center">
+<summary>🔋 <b>The NATERIDA battery story</b></summary>
 <br/>
 
+> We were field-testing NATERIDA's sensor array in Dillibazar when the battery pack died mid-run. The rover just... stopped. Dead in the middle of a crop row.
+>
+> Instead of packing up, I spent the next 3 hours debugging the power management stack on the spot — turns out the voltage regulator was feeding inconsistent power to the LSTM inference module. Rewrote the power-handling logic on my laptop sitting in the dirt, pushed the fix over USB, and the rover finished its route.
+>
+> That's when I learned: real engineering isn't what happens in the lab. It's what happens when everything breaks and you fix it anyway.
+
+</details>
+
+<img src="./divider.svg" width="100%" />
+
+<!-- ==================== JOURNEY METRO MAP ==================== -->
+<div align="center">
+
+### 🚇 The Journey
+
+<img src="./metro-journey.svg" width="100%" alt="Self-taught journey metro map" />
+
+</div>
+
+<img src="./divider.svg" width="100%" />
+
+<!-- ==================== SKILLS RADAR ==================== -->
+<div align="center">
+
+### 🎯 Skill Radar
+
 <table>
 <tr>
-<td align="center" width="50%">
+<td align="center" width="45%">
+
+<img src="./skills-radar.svg" width="350" alt="Skills radar chart" />
+
+</td>
+<td align="center" width="55%">
 
 **🧠 Deep Learning & AI**
-<br/>
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![TorchVision](https://img.shields.io/badge/TorchVision-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 
+`Transformers` · `EfficientNet` · `BioMistral` · `Whisper` · `ResNet` · `LSTM` · `Res-UNet`
+
 <br/>
-
-`Transformers` · `EfficientNet` · `BioMistral` · `Whisper` · `ResNet` · `LSTM` · `Double DQN` · `Res-UNet`
-
-</td>
-<td align="center" width="50%">
 
 **📊 Data Science & ML**
-<br/>
 
 ![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
 
-<br/>
-
 `XGBoost` · `Causal Inference` · `Time-Series` · `Feature Engineering` · `Fraud Detection`
 
-</td>
-</tr>
-<tr>
-<td align="center">
-
-**🛠️ Tools & Platforms**
 <br/>
 
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![VSCode](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Google Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+**🌐 Stack**
 
-</td>
-<td align="center">
-
-**🌐 Web & Backend**
-<br/>
-
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000?style=for-the-badge&logo=flask&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
 </td>
@@ -211,14 +196,14 @@
 
 </div>
 
----
+<img src="./divider.svg" width="100%" />
 
 <!-- ==================== GITHUB STATS ==================== -->
 <div align="center">
 
 ### 📊 GitHub Analytics
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=DeV-PrasiddhA&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&title_color=6C63FF&icon_color=6C63FF&text_color=c9d1d9&bg_color=0d1117&include_all_commits=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=DeV-PrasiddhA&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&title_color=6C63FF&icon_color=6C63FF&text_color=c9d1d9&bg_color=0d1117&include_all_commits=true" />
 <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=DeV-PrasiddhA&theme=tokyonight&hide_border=true&background=0d1117&ring=6C63FF&fire=6C63FF&currStreakLabel=6C63FF&sideLabels=6C63FF" />
 
 <br/>
@@ -227,19 +212,16 @@
 
 </div>
 
----
+<img src="./divider.svg" width="100%" />
 
-<!-- ==================== NEURAL NETWORK VISUALIZATION ==================== -->
+<!-- ==================== NEURAL NETWORK ==================== -->
 <div align="center">
 
 ### 🧠 Neural Network in Action
 
-<!-- Animated neural network — forward pass, backpropagation, optimization -->
-<img src="./neural-network.svg" width="100%" alt="Animated Neural Network — Forward Pass & Backpropagation" />
+<img src="./neural-network.svg" width="100%" alt="Animated Neural Network — forward pass, backpropagation, optimization" />
 
 </div>
-
----
 
 <!-- ==================== ACTIVITY GRAPH ==================== -->
 <div align="center">
@@ -250,9 +232,9 @@
 
 </div>
 
----
+<img src="./divider.svg" width="100%" />
 
-<!-- ==================== GITHUB TROPHIES ==================== -->
+<!-- ==================== TROPHIES ==================== -->
 <div align="center">
 
 ### 🏅 GitHub Trophies
@@ -261,7 +243,7 @@
 
 </div>
 
----
+<img src="./divider.svg" width="100%" />
 
 <!-- ==================== FEATURED PROJECTS ==================== -->
 <div align="center">
@@ -293,10 +275,10 @@ Multi-disease diagnostic system covering **malaria, bone fractures, chest X-rays
 
 ![XGBoost](https://img.shields.io/badge/XGBoost-6C63FF?style=flat-square)
 ![Stacked LSTM](https://img.shields.io/badge/Stacked_LSTM-00b4d8?style=flat-square)
-![Double DQN](https://img.shields.io/badge/Double_DQN-e63946?style=flat-square)
-![Res-UNet](https://img.shields.io/badge/Res--UNet-f4a261?style=flat-square)
+![Computer Vision](https://img.shields.io/badge/Computer_Vision-e63946?style=flat-square)
+![Data Analytics](https://img.shields.io/badge/Data_Analytics-f4a261?style=flat-square)
 
-Autonomous rover combining fertilizer recommendation, sensor-based intelligence, RL navigation, and image segmentation — **modular intelligent exploration architecture**.
+Autonomous rover combining fertilizer recommendation, sensor-based intelligence, vision pipelines, and data analytics — **modular intelligent exploration architecture**.
 
 [![Repo](https://img.shields.io/badge/→_View_Repo-6C63FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DeV-PrasiddhA/NATERIDA)
 
@@ -332,7 +314,7 @@ Collection of CNN and computer vision architectures implemented **from scratch a
 </tr>
 </table>
 
----
+<img src="./divider.svg" width="100%" />
 
 <!-- ==================== CURRENTLY EXPLORING ==================== -->
 <div align="center">
@@ -349,7 +331,7 @@ Collection of CNN and computer vision architectures implemented **from scratch a
  ▸ Deep Neural Networks & Representation Learning
  ▸ Computer Vision & Transfer Learning (PyTorch)
  ▸ Causal Machine Learning & Econometrics
- ▸ Reinforcement Learning for Robotics
+ ▸ Data Analytics & Feature Engineering
 ```
 
 </td>
@@ -366,7 +348,7 @@ Collection of CNN and computer vision architectures implemented **from scratch a
 </tr>
 </table>
 
----
+<img src="./divider.svg" width="100%" />
 
 <!-- ==================== PHILOSOPHY ==================== -->
 <div align="center">
@@ -379,7 +361,7 @@ I believe the fastest way to actually learn AI is to build continuously, underst
 
 </div>
 
----
+<img src="./divider.svg" width="100%" />
 
 <!-- ==================== RANDOM DEV QUOTE ==================== -->
 <div align="center">
@@ -390,7 +372,7 @@ I believe the fastest way to actually learn AI is to build continuously, underst
 
 </div>
 
----
+<img src="./divider.svg" width="100%" />
 
 <!-- ==================== CONNECT ==================== -->
 <div align="center">
