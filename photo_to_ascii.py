@@ -1,121 +1,84 @@
-from PIL import Image, ImageEnhance
+from PIL import Image, ImageOps, ImageFilter
 
-# ── Config ──────────────────────────────────────────────────────────────────
-INPUT_IMAGE = "pfp.jpeg"
-OUTPUT_TXT = "ascii_output.txt"
-OUTPUT_HTML = "ascii_colored.html"
-COLUMNS = 80
-
-# ASCII-only ramp (dark → light)
-RAMP = " .:-=+*#%@"
-
-# Aspect ratio correction
-CHAR_ASPECT = 0.5
-
-# Color theme for optional colorized output
-COLORIZE = True
-FG_COLOR = "#00d4ff"
-BG_COLOR = "#0d1117"
+INPUT  = "pfp.jpeg"
+WIDTH  = 50
+RAMP   = " .,:-~=+*#%@"
 
 
-def load_and_resize(path, columns):
-    img = Image.open(path).convert("RGB")
+def process(path):
+    img = Image.open(path).convert("L")
     w, h = img.size
-    new_w = columns
-    new_h = int(h / w * new_w * CHAR_ASPECT)
-    return img.resize((new_w, new_h), Image.LANCZOS)
+
+    # crop: focus on face region
+    img = img.crop((0, int(h * 0.10), w, int(h * 0.90)))
+
+    # denoise with gaussian blur
+    img = img.filter(ImageFilter.GaussianBlur(radius=1.5))
+
+    # gamma 0.25 to lift the extremely dark image
+    table = [int(255 * (i / 255) ** 0.25) for i in range(256)]
+    px = img.load()
+    for y in range(img.height):
+        for x in range(img.width):
+            px[x, y] = table[px[x, y]]
+
+    img = ImageOps.autocontrast(img, cutoff=2)
+
+    # second light blur to smooth after contrast
+    img = img.filter(ImageFilter.GaussianBlur(radius=0.8))
+
+    # resize
+    w, h = img.size
+    new_h = max(1, int(h / w * WIDTH * 0.5))
+    img = img.resize((WIDTH, new_h), Image.LANCZOS)
+    return img
 
 
-def enhance_contrast(img, factor=1.5):
-    return ImageEnhance.Contrast(img).enhance(factor)
-
-
-def floyd_steinberg_dither(img, num_levels):
-    gray = img.convert("L")
+def to_ascii(gray):
+    px = gray.load()
     w, h = gray.size
-    pixels = gray.load()
-    for y in range(h):
-        for x in range(w):
-            old = pixels[x, y]
-            step = 255 / (num_levels - 1)
-            new = round(old / step) * step
-            new = max(0, min(255, new))
-            pixels[x, y] = int(new)
-            err = old - new
-            if x + 1 < w:
-                pixels[x + 1, y] = max(0, min(255, int(pixels[x + 1, y] + err * 7 / 16)))
-            if x - 1 >= 0 and y + 1 < h:
-                pixels[x - 1, y + 1] = max(0, min(255, int(pixels[x - 1, y + 1] + err * 3 / 16)))
-            if y + 1 < h:
-                pixels[x, y + 1] = max(0, min(255, int(pixels[x, y + 1] + err * 5 / 16)))
-            if x + 1 < w and y + 1 < h:
-                pixels[x + 1, y + 1] = max(0, min(255, int(pixels[x + 1, y + 1] + err * 1 / 16)))
-    return gray
-
-
-def pixels_to_ascii(img, ramp):
-    pixels = img.load()
-    w, h = img.size
+    n = len(RAMP) - 1
     lines = []
     for y in range(h):
-        line = ""
+        row = ""
         for x in range(w):
-            val = pixels[x, y]
-            idx = int(val / 255 * (len(ramp) - 1))
-            idx = max(0, min(len(ramp) - 1, idx))
-            line += ramp[idx]
-        lines.append(line)
+            v = px[x, y]
+            idx = min(n, max(0, int(v / 255 * n + 0.5)))
+            row += RAMP[idx]
+        lines.append(row)
     return lines
 
 
-def wrap_pre(lines):
-    return "<pre>\n" + "\n".join(lines) + "\n</pre>"
-
-
-def wrap_colorized(lines, fg, bg):
-    inner = []
-    for line in lines:
-        escaped = line.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
-        inner.append(f'<span style="color:{fg}">{escaped}</span>')
+def colorize(lines, fg="#00d4ff", bg="#0d1117"):
+    out = []
+    for ln in lines:
+        e = ln.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+        out.append(f'<span style="color:{fg}">{e}</span>')
     return (
-        f'<pre style="background:{bg};padding:10px;border-radius:8px;overflow-x:auto">\n'
-        + "\n".join(inner)
+        f'<pre style="background:{bg};padding:8px;border-radius:6px;text-align:center;line-height:1.1;font-size:11px">\n'
+        + "\n".join(out)
         + "\n</pre>"
     )
 
 
 def main():
-    print(f"Loading {INPUT_IMAGE}...")
-    img = load_and_resize(INPUT_IMAGE, COLUMNS)
-    img = enhance_contrast(img, 1.5)
-    print(f"Resized to {img.size[0]}x{img.size[1]} characters")
+    gray = process(INPUT)
+    lines = to_ascii(gray)
 
-    num_levels = len(RAMP)
-    print(f"Applying Floyd-Steinberg dithering ({num_levels} levels)...")
-    dithered = floyd_steinberg_dither(img, num_levels)
-
-    print(f"Mapping to ASCII ramp: {repr(RAMP)}")
-    lines = pixels_to_ascii(dithered, RAMP)
-
-    while lines and lines[0].strip() == "":
+    while lines and not lines[0].strip():
         lines.pop(0)
-    while lines and lines[-1].strip() == "":
+    while lines and not lines[-1].strip():
         lines.pop()
 
-    plain = wrap_pre(lines)
-    with open(OUTPUT_TXT, "w", encoding="utf-8") as f:
+    plain = "<pre>\n" + "\n".join(lines) + "\n</pre>"
+    with open("ascii_output.txt", "w", encoding="utf-8") as f:
         f.write(plain)
-    print(f"\nPlain ASCII saved to {OUTPUT_TXT}")
 
-    if COLORIZE:
-        colored = wrap_colorized(lines, FG_COLOR, BG_COLOR)
-        with open(OUTPUT_HTML, "w", encoding="utf-8") as f:
-            f.write(colored)
-        print(f"Colorized HTML saved to {OUTPUT_HTML}")
+    colored = colorize(lines)
+    with open("ascii_colored.html", "w", encoding="utf-8") as f:
+        f.write(colored)
 
-    print("\n" + "=" * 60)
-    print("PREVIEW:")
-    print("=" * 60 + "\n")
+    print(f"Size: {WIDTH}x{len(lines)}")
     print(plain)
 
 
