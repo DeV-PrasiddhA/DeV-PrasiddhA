@@ -1,7 +1,10 @@
 <div align="center">
 
 <!-- ==================== HEADER BANNER ==================== -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:6C63FF,100:0d1117&height=220&section=header&text=Prasiddha%20Mainali&fontSize=80&fontColor=ffffff&fontAlignY=35&desc=AI%2FML%20Researcher%20%26%20Builder&descSize=20&descAlignY=55&animation=twinkling" width="100%"/>
+<!-- ==================== PROFILE SKETCH ==================== -->
+<img src="./profile-sketch.svg" width="280" alt="Prasiddha Mainali — AI/ML Researcher" />
+
+<br/>
 
 <a href="https://git.io/typing-svg">
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=2800&pause=800&color=6C63FF&center=true&vCenter=true&width=700&lines=%F0%9F%94%A5+Building+intelligent+systems+from+first+principles;Self-taught.+Relentless.+Always+shipping.;Kathmandu+%E2%86%92+The+world" alt="Typing SVG" />
@@ -31,7 +34,7 @@
 
 </div>
 
----
+<img src="./divider.svg" width="100%" />
 
 <!-- ==================== TERMINAL ABOUT ME ==================== -->
 <div align="center">
@@ -113,8 +116,8 @@
 <sub><b>Multi-disease AI diagnostics<br/>platform with LLM assistant</b></sub>
 </td>
 <td align="center" width="33%">
-<img src="https://img.shields.io/badge/🌾_NATERIDA-IEEE_Published-orange?style=for-the-badge&labelColor=0d1117" /><br/>
-<sub><b>Autonomous agri rover<br/>+ published IEEE research</b></sub>
+<img src="https://img.shields.io/badge/🌾_NATERIDA-Autonomous_Rover-orange?style=for-the-badge&labelColor=0d1117" /><br/>
+<sub><b>Autonomous agricultural<br/>exploration rover</b></sub>
 </td>
 <td align="center" width="33%">
 <img src="https://img.shields.io/badge/📈_EconML-Causal_ML_Research-00b4d8?style=for-the-badge&labelColor=0d1117" /><br/>
@@ -226,17 +229,23 @@
 
 ---
 
-<!-- ==================== 3D CONTRIBUTION GRAPH ==================== -->
+<!-- ==================== NEURAL NETWORK VISUALIZATION ==================== -->
 <div align="center">
 
-### 🌐 Contribution Landscape
+### 🧠 Neural Network in Action
 
-<!-- 3D Isometric contribution graph — way cooler than a flat snake -->
-<img src="https://raw.githubusercontent.com/DeV-PrasiddhA/DeV-PrasiddhA/output/github-contribution-grid-snake.svg" width="100%" alt="Contribution Snake" />
+<!-- Animated neural network — forward pass, backpropagation, optimization -->
+<img src="./neural-network.svg" width="100%" alt="Animated Neural Network — Forward Pass & Backpropagation" />
 
-<br/>
+</div>
 
-<!-- Activity heatmap graph -->
+---
+
+<!-- ==================== ACTIVITY GRAPH ==================== -->
+<div align="center">
+
+### 📈 Contribution Activity
+
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=DeV-PrasiddhA&theme=react-dark&hide_border=true&bg_color=0d1117&color=6C63FF&line=6C63FF&point=ffffff&area=true&area_color=6C63FF" width="100%" />
 
 </div>
@@ -287,7 +296,7 @@ Multi-disease diagnostic system covering **malaria, bone fractures, chest X-rays
 ![Double DQN](https://img.shields.io/badge/Double_DQN-e63946?style=flat-square)
 ![Res-UNet](https://img.shields.io/badge/Res--UNet-f4a261?style=flat-square)
 
-Autonomous rover combining fertilizer recommendation, sensor-based intelligence, RL navigation, and image segmentation — **published as a joint IEEE-formatted research paper**.
+Autonomous rover combining fertilizer recommendation, sensor-based intelligence, RL navigation, and image segmentation — **modular intelligent exploration architecture**.
 
 [![Repo](https://img.shields.io/badge/→_View_Repo-6C63FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DeV-PrasiddhA/NATERIDA)
 
